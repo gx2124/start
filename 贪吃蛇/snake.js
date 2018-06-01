@@ -254,7 +254,7 @@ function bindEvent() {
     }
 }
 
-//暂定和开始：
+//暂停和开始：
 function startAndPauseGame() {
     if (startPauseBool) {
         if (startGameBool) {
