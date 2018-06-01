@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div class="startPage" id="startPage">
+        <div class="startBtn" id="startBtn"></div>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <img src="img/go.png" id="go">
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="score">
+                    分数：
+                    <span id="score"></span>
+                </div>
+            </div>
+            <div class="content" id="content"></div>
+        </div>
+    </div>
+    <div class="lose" id="lose">
+        <div class="cont">
+            <div class="close" id="close"></div>
+            <span class="loseScore" id="loseScore"></span>
+        </div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
